@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kanban"
+version = "0.1.0"
+description = "Application made for univeristy course"
+authors = ["Filip Jaszczyk <filipqwerty32@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+djangorestframework = "^3.14.0"
+drf-spectacular = "^0.26.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
